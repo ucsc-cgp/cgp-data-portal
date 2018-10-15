@@ -1,0 +1,18 @@
+/*
+ * Commons
+ * https://www.xxx.org/
+ *
+ * Style definitions specific to the Commons home page.
+ */
+
+/* Commons home page */
+.commons {
+  margin: 32px 0 48px;
+}
+
+/* Wrapper */
+.commons .wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 16px; /* Gutter 16px */
+}

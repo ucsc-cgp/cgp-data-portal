@@ -1,0 +1,66 @@
+/*
+ * Commons
+ * https://www.xxx.org/
+ *
+ * Style definitions specific to the Commons footer component.
+ */
+
+/* Footer */
+.footer {
+    background-color: #F7FFF7;
+    font-family: Roboto, sans-serif;
+}
+
+/* Wrapper */
+.wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+    padding: 0 16px; /* Gutter 16px */
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.wrapper > div {
+    margin: 4px 0;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerLinks > div {
+    align-items: center;
+    display: flex;
+}
+
+.footerLinks > div > li {
+    display: flex;
+    margin: 0;
+}
+
+.footerLinks a {
+    color: #1A535C; /* TODO color */
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.footerLinks a:hover {
+    color: #1A535C;
+    opacity: 0.54;
+}
+
+.footerLinks li:not(:first-of-type):before {
+    content: "\b7";
+    margin: 0 16px;
+}
+
+.copyright {
+    font-size: 10px;
+    opacity: 0.54;
+}

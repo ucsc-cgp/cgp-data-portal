@@ -1,0 +1,21 @@
+/*
+ * Commons
+ * https://www.xxx.org/
+ *
+ * Style definitions specific to the Commons 404 error component.
+ */
+
+/* Wrapper */
+.error .wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 16px; /* Gutter 16px */
+}
+
+/* Content */
+.commonsContent {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 36px 0;
+}
