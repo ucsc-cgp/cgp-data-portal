@@ -33,7 +33,7 @@ class Header extends React.Component {
                     </div>
                     <div className={compStyles.navLinks}>
                         <li><Link to="/" activeClassName={compStyles.active}>Home</Link></li>
-                        <li><a href="http://cc-boardwalk-dev.carlos.ucsc-cgp-dev.org/boardwalk">Data Browser</a></li>
+                        <li><a href={process.env.GATSBY_EXPLORE_URL}>Data Browser</a></li>
                         <li>{this.state.auth ? <a className={compStyles.auth} onClick={this.toggleAuthState}><span>email-me@clevercanary.com</span><span>Logout</span></a> : <a onClick={this.toggleAuthState}>Login</a>}</li>
                     </div>
                 </div>
