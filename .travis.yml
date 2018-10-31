@@ -16,20 +16,10 @@ install: npm install
 script: make build
 deploy:
 - provider: script
-  script: make deploy-staging-travis
-  skip_cleanup: true
-  on:
-    branch: staging
-- provider: script
   script: make deploy-dev-travis
   skip_cleanup: true
   on:
     branch: seed
-- provider: script
-  script: make deploy-integration-travis
-  skip_cleanup: true
-  on:
-    branch: integration
 env:
   global:
   - secure: JMK560+jPvzcI78fKcof6ZqCsq3aSzXtH39Te/4kZyFc6h8zWyE7JXFbNgZ3HXONq7ACdEedByLP4UdgFQja+7LAXqv7Q5zXEOCTLUkNCEhZKld47HdAO5zTiR9r/30FHRrvKvwgy6oVub9/yQHLVAql0fwkhSfKnb/TCn5EGdkWQtBsWzILZWxKPL5u7Wravzxs85sr13/czfd6x99TLgZCY3QG8JVtqmQuyAzSxnOxiqIvRC52IkOqfrpzbQApezLYVKCnF7ggtl4XPfvCWINSFypxLZSHjUnUs+nH2TVVQtdBlf+u3SwLH6LMSFB9tHehaeeHk2GmlKLXAEYeyIAmaawadKLwl3s7jU62/TVVWm543Ndl1iD+6bHU3ibHm8caxvLpiQEaJ1/F3ccDnnucu3gshtJ9yHdd9A6Rh3aMyvyf4sy6KkUFqDypqLNVoDyaT+RJs3F345pMuSfyaDzClvHlJUZ8fJ94BkAYejJouKRpwuHH1YuyilovWGGu+C2kI3CagFIRKhDa2gFJbup5JFg73u/NutB1I5h6SmC7Re93ZKnEoE4jInJ4vzIg+3j83TZRRiZt/6MCfNWPIkaoUfrnJzBo3AeT0uuF6iT6yoqa1HBUA4Lr/zOOSFwcL/bCrbe0DETLuduLAMV/lIpBXncqPMEapAn9CxhF16Q=
