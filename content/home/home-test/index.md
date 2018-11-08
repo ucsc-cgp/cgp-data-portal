@@ -6,7 +6,7 @@ subTitle: "UCSC Boardwalk Data Browser"
 ---
 # UCSC Boardwalk Data Browser (all Markdown)
 ## Explore and Export Genomics Research Data
-The UCSC Boardwalk Data Browser is a web-based platform for exploring and exporting genomics data. This includes the metadata, and links to the actual data. The links come in two different formats; cloud native URLs such as those supported by Amazon S3 and Google Cloud Storage, as well as emerging GA4GH [Data Object Service](https://github.com/ga4gh/data-object-service-schemas) standard URIs. You can easily search for data using facets, and export the selected data, either locally to a manifest file or into the Broad Institute's [Saturn](https://bvdp-saturn-prod.appspot.com/).
+The UCSC Boardwalk Data Browser is a web-based platform for exploring and exporting genomics data. This includes the metadata, and links to the actual data. The links come in two different formats; cloud native URLs such as those supported by Amazon S3 and Google Cloud Storage, as well as emerging GA4GH <a href="https://github.com/ga4gh/data-object-service-schemas" target="_blank">Data Object Service</a> standard URIs. You can easily search for data using facets, and export the selected data, either locally to a manifest file or into the Broad Institute's [Saturn](https://bvdp-saturn-prod.appspot.com/).
 
 ## Getting Started
 
