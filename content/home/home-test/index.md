@@ -11,7 +11,7 @@ The UCSC Boardwalk Data Browser is a web-based platform for exploring and export
 ## Getting Started
 
 ### Restricted Access Data
-The data you are viewing has restricted access. You must log in with an email address that has been whitelisted. If your email is not whitelisted, you can request access at [cgl@ucsc.edu](mailto:cgl@ucsc.edu). To login, click the login link at the top of the page.
+The data you are viewing has restricted access. You must log in with an email address that has been whitelisted. If your email is not whitelisted, you can request access at [cgl@ucsc.edu](mailto:cgl@ucsc.edu/?target=_blank). To login, click the login link at the top of the page.
 
 ### Exploring
 To start exploring, click the Data Browser link at the top of the page. You will see various boxes with filters that you can apply to search the data. These are known as facets. At the bottom of the page, there is a table showing all the selected data. As you filter the data, the contents of the table will change.
