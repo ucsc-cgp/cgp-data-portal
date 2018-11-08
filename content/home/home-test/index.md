@@ -6,12 +6,12 @@ subTitle: "UCSC Boardwalk Data Browser"
 ---
 # UCSC Boardwalk Data Browser (all Markdown)
 ## Explore and Export Genomics Research Data
-The UCSC Boardwalk Data Browser is a web-based platform for exploring and exporting genomics data. This includes the metadata, and links to the actual data. The links come in two different formats; cloud native URLs such as those supported by Amazon S3 and Google Cloud Storage, as well as emerging GA4GH <a href="https://github.com/ga4gh/data-object-service-schemas" target="_blank">Data Object Service</a> standard URIs. You can easily search for data using facets, and export the selected data, either locally to a manifest file or into the Broad Institute's [Saturn](https://bvdp-saturn-prod.appspot.com/).
+The UCSC Boardwalk Data Browser is a web-based platform for exploring and exporting genomics data. This includes the metadata, and links to the actual data. The links come in two different formats; cloud native URLs such as those supported by Amazon S3 and Google Cloud Storage, as well as emerging GA4GH <a href="https://github.com/ga4gh/data-object-service-schemas" target="_blank">Data Object Service</a> standard URIs. You can easily search for data using facets, and export the selected data, either locally to a manifest file or into the Broad Institute's [Saturn](https://bvdp-saturn-prod.appspot.com/?target=_blank).
 
 ## Getting Started
 
 ### Restricted Access Data
-The data you are viewing has restricted access. You must log in with an email address that has been whitelisted. If your email is not whitelisted, you can request access at [cgl@ucsc.edu](mailto:cgl@ucsc.edu/?target=_blank). To login, click the login link at the top of the page.
+The data you are viewing has restricted access. You must log in with an email address that has been whitelisted. If your email is not whitelisted, you can request access at [cgl@ucsc.edu](mailto:cgl@ucsc.edu). To login, click the login link at the top of the page.
 
 ### Exploring
 To start exploring, click the Data Browser link at the top of the page. You will see various boxes with filters that you can apply to search the data. These are known as facets. At the bottom of the page, there is a table showing all the selected data. As you filter the data, the contents of the table will change.
